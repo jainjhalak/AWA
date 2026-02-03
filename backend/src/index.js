@@ -39,7 +39,7 @@ initializeSocket(httpServer);
 
 app.use(cors(
     {
-        origin: "awa-ashy.vercel.app",
+        origin: "https://awa-ashy.vercel.app",
         credentials: true,
     }
 ));
